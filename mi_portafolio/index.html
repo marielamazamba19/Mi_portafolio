@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Profesional</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-gray-100 text-gray-800">
+
+    <!-- ===================== Header / Inicio ===================== -->
+    <header class="bg-gray-900 text-white py-20 text-center">
+        <h1 class="text-5xl font-bold mb-4">Mariela Mazamba Romero</h1>
+        <p class="text-xl mb-6">Desarrollador Web | Portafolio Profesional</p>
+        <a href="#contacto" class="bg-blue-600 px-6 py-3 rounded hover:bg-blue-700 transition">Contáctame</a>
+    </header>
+
+    <!-- ===================== Sobre mí ===================== -->
+    <section id="sobre-mi" class="py-20 px-6 max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold mb-6 text-center">Sobre mí</h2>
+        <div class="flex flex-col md:flex-row items-center gap-6">
+            <img src="assets/img/foto.jpg" alt="Foto Clarens" class="w-48 rounded-full mx-auto md:mx-0">
+            <p class="text-lg">
+                Hola, Mariela Mazamba Romero, un apasionado del desarrollo web con experiencia en HTML, CSS, JavaScript y frameworks modernos como React. Me especializo en crear sitios web responsivos, interactivos y visualmente atractivos.
+            </p>
+        </div>
+    </section>
+
+    <!-- ===================== Portafolio ===================== -->
+    <section id="portafolio" class="bg-gray-200 py-20 px-6">
+        <h2 class="text-3xl font-bold mb-10 text-center">Portafolio de Proyectos</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <div class="bg-white rounded shadow p-4">
+                <img src="assets/proyectos/proyecto1.png" alt="Proyecto 1" class="rounded mb-4">
+                <h3 class="text-xl font-semibold mb-2">Proyecto 1</h3>
+                <p>Descripción breve del proyecto 1, tecnologías usadas y funcionalidades principales.</p>
+            </div>
+            <div class="bg-white rounded shadow p-4">
+                <img src="assets/proyectos/proyecto2.png" alt="Proyecto 2" class="rounded mb-4">
+                <h3 class="text-xl font-semibold mb-2">Proyecto 2</h3>
+                <p>Descripción breve del proyecto 2, tecnologías usadas y funcionalidades principales.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== Habilidades ===================== -->
+    <section id="habilidades" class="py-20 px-6 max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold mb-10 text-center">Habilidades</h2>
+        <div class="flex flex-wrap justify-center gap-6">
+            <span class="bg-gray-800 text-white px-4 py-2 rounded">HTML5</span>
+            <span class="bg-gray-800 text-white px-4 py-2 rounded">CSS3</span>
+            <span class="bg-gray-800 text-white px-4 py-2 rounded">JavaScript</span>
+            <span class="bg-gray-800 text-white px-4 py-2 rounded">React</span>
+            <span class="bg-gray-800 text-white px-4 py-2 rounded">Tailwind CSS</span>
+        </div>
+    </section>
+
+    <!-- ===================== Experiencia ===================== -->
+    <section id="experiencia" class="bg-gray-200 py-20 px-6 max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold mb-10 text-center">Experiencia</h2>
+        <ul class="space-y-4">
+            <li>
+                <h3 class="font-semibold text-xl">Desarrollador Web - Empresa XYZ</h3>
+                <p>2023 - Presente | Desarrollo de aplicaciones web y mantenimiento de sitios corporativos.</p>
+            </li>
+            <li>
+                <h3 class="font-semibold text-xl">Practicante Frontend - Empresa ABC</h3>
+                <p>2022 - 2023 | Colaboración en proyectos de diseño responsive y optimización web.</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- ===================== Educación ===================== -->
+    <section id="educacion" class="py-20 px-6 max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold mb-10 text-center">Educación</h2>
+        <ul class="space-y-4 text-center">
+            <li>
+                <h3 class="font-semibold text-xl">Ingeniería en Sistemas - Universidad Técnica de Manabí</h3>
+                <p>2019 - 2024</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- ===================== Contacto ===================== -->
+    <section id="contacto" class="bg-gray-900 text-white py-20 px-6">
+        <h2 class="text-3xl font-bold mb-10 text-center">Contacto</h2>
+        <form class="max-w-2xl mx-auto flex flex-col gap-4">
+            <input type="text" placeholder="Nombre" class="p-3 rounded text-gray-800" required>
+            <input type="email" placeholder="Correo electrónico" class="p-3 rounded text-gray-800" required>
+            <textarea placeholder="Mensaje" class="p-3 rounded text-gray-800" rows="5" required></textarea>
+            <button type="submit" class="bg-blue-600 py-3 rounded hover:bg-blue-700 transition">Enviar</button>
+        </form>
+        <p class="text-center mt-6">Sígueme en <a href="#" class="text-blue-400">LinkedIn</a> | <a href="#" class="text-blue-400">GitHub</a></p>
+    </section>
+
+    <!-- ===================== Footer ===================== -->
+    <footer class="bg-gray-800 text-white py-6 text-center">
+        &copy; 2025 Diseñador. Todos los derechos reservados.
+    </footer>
+
+</body>
+</html>
